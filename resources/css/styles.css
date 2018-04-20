@@ -8,12 +8,14 @@
 
 }
 body {
+
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
+
 }
 a {
   color: seashell;
@@ -58,14 +60,15 @@ nav ul li {
   align-content: center;
   /* border: 1px solid white; */
   padding-top: 70px;
+  min-width: 1200px;
 }
-.maincontent {
+ .maincontent {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   /* border: 1px solid pink; */
-  opacity: 0.9;
+  opacity: 0.9; */
 
 }
 
@@ -180,6 +183,7 @@ nav ul li {
   max-width: 1200px;
   background-size: cover;
   background-position: center;
+
   /* border: 1px solid brown; */
 }
 
