@@ -5,6 +5,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  opacity: 0.9;
+
 
 }
 body {
@@ -13,7 +15,7 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   text-align: center;
 
 }
@@ -54,13 +56,11 @@ nav ul li {
 /* main content */
 
 .pagecontainer {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
+
   /* border: 1px solid white; */
   padding-top: 70px;
   min-width: 1200px;
+
 }
  .maincontent {
   display: flex;
@@ -68,7 +68,7 @@ nav ul li {
   flex-direction: column;
   align-items: center;
   /* border: 1px solid pink; */
-  opacity: 0.9; */
+
 
 }
 
@@ -108,6 +108,8 @@ nav ul li {
   align-items: center;
   /* border: 1px dotted pink; */
   margin-bottom: 50px;
+  flex-basis: content;
+
 }
 .featureheader {
   display: flex;
@@ -184,6 +186,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
 
+
   /* border: 1px solid brown; */
 }
 
@@ -197,11 +200,13 @@ nav ul li {
   width: 300px;
   height: 300px;
   background-color: black;
-  opacity: 1;
+  /* opacity: 1; */
   /* border: 2px solid white; */
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 15px;
+  opacity: 1;
+
 
 }
 .locationscontainer {
@@ -213,6 +218,7 @@ nav ul li {
   /* border: 1px solid orange; */
   justify-content: center;
   align-items: center;
+  opacity: 1 !important;
 
 }
 .locationsheader {
